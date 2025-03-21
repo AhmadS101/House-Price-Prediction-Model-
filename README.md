@@ -26,29 +26,29 @@ pip install -r requirements.txt
 ### Usage
 
 - To use this project, follow these steps:
-#### **1. Download Dataset:**
+    #### **1. Download Dataset:**
 ```pyhton
 python src\data\download_dataset.py
 ```
 
-#### **2. Data Visualization for Caught Insights:**
+    #### **2. Data Visualization for Caught Insights:**
 ```pyhton
 python src\visualization\visualize.py
 ```
 
-#### **3. Splitting Dataset:**
+    #### **3. Splitting Dataset:**
 ```pyhton
 python src\features\Splitting_features.py
 ```
 
-#### **4. Train Various Regression Models:** 
+    #### **4. Train Various Regression Models:** 
 ```pyhton
 python src\models\train_model.py
 ```
 ---
 
 ### Dataset
-- The dataset used in this project is sourced from [GitHub]https://github.com/ageron/handson-ml2). It contains information about various houses, including features such as:
+- The dataset used in this project is sourced from [GitHub](https://github.com/ageron/handson-ml2). It contains information about various houses, including features such as:
 Location
 - Number of bedrooms
 - Number of rooms
