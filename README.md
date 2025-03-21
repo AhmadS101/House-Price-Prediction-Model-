@@ -26,22 +26,22 @@ pip install -r requirements.txt
 ### Usage
 
 - To use this project, follow these steps:
-    #### **1. Download Dataset:**
+#### **1. Download Dataset:**
 ```pyhton
 python src\data\download_dataset.py
 ```
 
-    #### **2. Data Visualization for Caught Insights:**
+#### **2. Data Visualization for Caught Insights:**
 ```pyhton
 python src\visualization\visualize.py
 ```
 
-    #### **3. Splitting Dataset:**
+#### **3. Splitting Dataset:**
 ```pyhton
 python src\features\Splitting_features.py
 ```
 
-    #### **4. Train Various Regression Models:** 
+#### **4. Train Various Regression Models:** 
 ```pyhton
 python src\models\train_model.py
 ```
@@ -63,9 +63,9 @@ The dataset is stored in the data\raw directory.
 
 - We identified the following hyperparameters:
 
-1. max_features: 4
-2. n_estimators: 30
-3. bootstrap: [False]
+    1. max_features: 4
+    2. n_estimators: 30
+    3. bootstrap: [False]
 ---
 
 ### Evaluation
@@ -75,3 +75,4 @@ Root Mean Absolute Error (RMAE): $46,987
 ---
 
 ### Results
+- The final performance of the system achieved an accuracy of 40.8%, which is not better than the experts’ manual price estimates (often off by about 20%). However, launching the model may still be beneficial, as it could free up time for the experts to focus on more interesting and productive tasks.
