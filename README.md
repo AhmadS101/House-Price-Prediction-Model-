@@ -54,8 +54,7 @@ Location
 - Number of rooms
 - Number of households
 - Price
-
-The dataset is stored in the data\raw directory.
+  The dataset is stored in the data\raw directory.
 ---
 
 ### Model
