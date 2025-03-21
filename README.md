@@ -49,12 +49,12 @@ python src\models\train_model.py
 
 ### Dataset
 - The dataset used in this project is sourced from [GitHub](https://github.com/ageron/handson-ml2). It contains information about various houses, including features such as:
-Location
-- Number of bedrooms
-- Number of rooms
-- Number of households
-- Price
-  The dataset is stored in the data\raw directory.
+1. Location
+2. Number of bedrooms
+3. Number of rooms
+4. Number of households
+5. Price
+
 ---
 
 ### Model
