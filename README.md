@@ -7,7 +7,8 @@
 ###  Frame the Problem
 - The business objective is to create a model that predicts a district's median housing price, which will be used by a downstream machine learning system to assess investment opportunities. The current manual estimation method is inaccurate and time-consuming. The goal is to build a supervised learning model, specifically a regression model, using census data to improve prediction accuracy. This is a multiple regression task, utilizing various features like population and income, and will be tackled using batch learning, as the dataset is manageable and does not require rapid adjustments.
 
-- The final performance of the system achieved an accuracy of 40.8%, which is not better than the experts’ manual price estimates (often off by about 20%). However, launching the model may still be beneficial, as it could free up time for the experts to focus on more interesting and productive tasks.
+![Frame]("E:\Projects\House Price Prediction\reports\Downdstreem ml .png")
+
 ---
 
 ### Installation
