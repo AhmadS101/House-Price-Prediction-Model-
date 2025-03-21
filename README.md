@@ -70,8 +70,7 @@ The dataset is stored in the data\raw directory.
 
 ### Evaluation
 - The model's performance is evaluated using the following metrics:
-
-Root Mean Absolute Error (RMAE): $46,987
+    Root Mean Absolute Error (RMAE): $46,987
 ---
 
 ### Results
